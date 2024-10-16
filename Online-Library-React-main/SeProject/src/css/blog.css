@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+  }
+.b {
+    background: url('../components/image/background.jpg') no-repeat top center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}   
+.aboutt{
+    width: 100%;
+    max-width: 550px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #c5ecfd;
+    font-size: medium;
+    margin: 80px;
+    text-align: center;
+  }
+  .wrapperr{
+    top: 80%;
+    width: 100%;
+    max-width: 680px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    margin: 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+ .title h1{
+    color: #c5ecfd;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+ .contact-form{
+    display: flex;
+    width: 50px;
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    width: 80%;
+  }
+
+  
+  .inputt-fields .inputt
+  {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 80%;
+  }
+  
+  textarea{
+    height: 212px;
+  }
+  
+  ::-webkit-inputt-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #c5ecfd;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #c5ecfd;
+  }
+  :-ms-inputt-placeholder {
+    /* IE 10+ */
+    color: #c5ecfd;
+  }
+  label{
+float: center;  }
+#accept{float: center;}
+  .btn1 {
+      background: #39b7dd;
+      text-align: center;
+      padding: 15px;
+      margin-right: 10px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+  }
+  .btn2 {
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    margin-left: 250px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn3 {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  margin-left: 25px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn4 {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  margin-left: 100px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+  @media screen and (max-width:800px){
+    .b{
+      flex-direction: column;
+      height: 180vh;
+    }
+    .contact-form{
+      flex-direction: column;
+      width: 100px;
+    }
+    .textarea{
+      height: 80px;
+    }
+    .input-fields{
+      width: 100%;
+    }
+  }
